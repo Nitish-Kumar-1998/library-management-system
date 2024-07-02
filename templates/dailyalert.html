@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Alert</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #766e6e;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #71aeef;
+        }
+        p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello, {{ name }}!</h1>
+        <p>We're thrilled to have you back!</p>
+        <p>Your last visit was on {{ lastvisited }}, and we've been eagerly anticipating your return.</p>
+        <p>Our library is constantly evolving, with fresh content and exciting features added regularly.</p>
+        <p>Why not drop by again? We're confident you'll discover something new and captivating.</p>
+        <p>Staying in the loop with us ensures you're always at the forefront.</p>
+        <p>Ready for another adventure? Click <a href="http://127.0.0.1:5000">here</a> to explore what's waiting for you!</p>
+        <p>We can't wait to welcome you back!</p>
+        <p>Best regards,</p>
+        <p>The Library App Team</p>
+    </div>    
+</body>
+</html>

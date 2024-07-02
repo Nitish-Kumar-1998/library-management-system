@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Reset</title>
+    <style>
+        body {
+            font-family: 'Helvetica', sans-serif;
+            background-color: #e8e8e8;
+            text-align: center;
+            margin: 0;
+            padding: 30px;
+        }
+
+        .wrapper {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #007acc;
+            margin-bottom: 30px;
+        }
+
+        .message {
+            background-color: #f9f9f9;
+            padding: 25px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin-bottom: 40px;
+        }
+
+        .message p {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        strong {
+            color: #b1a110;
+            font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Password Reset</h1>
+        <div class="message">
+            <p>Hi,</p>
+            <p>We received a request to reset your password for our Library.</p>
+            <p>Please use the following verification code to complete the process:</p>
+            <p style="font-size: 24px"><strong>{{otp}}</strong></p>
+            <p>If you didn't request a password reset, please ignore this email.</p>
+            <p>Thanks for using our Library!</p>
+        </div>
+    </div>
+</body>
+</html>
